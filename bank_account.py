@@ -4,4 +4,5 @@ class BankAccount:
         self.account_balance = account_balance
 
     
-    
+    def deposit(self,amount):
+        pass
