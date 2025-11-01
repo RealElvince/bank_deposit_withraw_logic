@@ -5,5 +5,5 @@ class BankAccount:
 
     
     def deposit(self,amount):
-        if amount <= 0:
-            print("Invalid Deposit")
+        if amount > 0:
+            self.account_balance += amount
