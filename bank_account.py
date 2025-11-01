@@ -11,4 +11,5 @@ class BankAccount:
         
 
     def withdraw(self,amount):
-        pass
+        if amount < 0:
+            print("Invalid withdrawal!")
