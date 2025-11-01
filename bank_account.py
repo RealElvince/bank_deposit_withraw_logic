@@ -23,7 +23,7 @@ class BankAccount:
         else:
             print("Insufficient Funds!")
 
-    def transactions(self):
+    def show_transactions(self):
         """" Display all transactions """
         print("\n --- Transactions History ---")
 
@@ -39,4 +39,4 @@ account.deposit(4500)
 account.withdraw(10000)
 account.withdraw(450000)
 account.withdraw(0)
-account.transactions()
+account.show_transactions()
