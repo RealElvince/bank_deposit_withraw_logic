@@ -23,6 +23,9 @@ class BankAccount:
         else:
             print("Insufficient Funds!")
 
+    def transactions(self):
+        pass
+
 
 account = BankAccount("Elijah Doe",30_000)
 account.deposit(4500)
