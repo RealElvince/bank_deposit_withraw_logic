@@ -24,7 +24,14 @@ class BankAccount:
             print("Insufficient Funds!")
 
     def transactions(self):
-        pass
+        """" Display all transactions """
+        print("\n --- Transactions History ---")
+
+        if not self.transactions:
+            print("No transactions to display!")
+        else:
+            for transaction in self.transactions:
+                print(transaction)
 
 
 account = BankAccount("Elijah Doe",30_000)
