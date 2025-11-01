@@ -8,3 +8,7 @@ class BankAccount:
         if amount > 0:
             self.account_balance += amount
             print(f"Dear {self.account_holder},{amount} has been deposited into your bank account. New balance is {self.account_balance}.")
+        
+
+    def withdraw(self,amount):
+        pass
