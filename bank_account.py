@@ -5,4 +5,5 @@ class BankAccount:
 
     
     def deposit(self,amount):
-        pass
+        if amount <= 0:
+            print("Invalid Deposit")
