@@ -11,7 +11,7 @@ class BankAccount:
         
 
     def withdraw(self,amount):
-        if amount < 0:
+        if amount <= 0:
             print("Invalid withdrawal!")
         elif self.account_balance >= amount:
             self.account_balance -= amount
@@ -25,3 +25,4 @@ account = BankAccount("Elijah Doe",30_000)
 account.deposit(4500)
 account.withdraw(10000)
 account.withdraw(450000)
+account.withdraw(0)
