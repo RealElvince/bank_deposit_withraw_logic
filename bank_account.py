@@ -19,3 +19,6 @@ class BankAccount:
 
         else:
             print("Insufficient Funds!")
+
+
+account = BankAccount("Elijah Doe",30_000)
